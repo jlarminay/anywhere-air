@@ -1,0 +1,270 @@
+html {
+	background-color: white;
+	z-index: 1;
+}
+/*
+* {
+	border: 1px solid red !important;
+}
+*/
+
+/* ------------------------------------------------------------ */
+/* Header */
+body {
+	margin: 0;
+}
+
+header {
+	/*border: 1px solid black;*/
+}
+
+#full {
+	width: 80%;
+	margin: auto;
+}
+
+#wall {
+	background: url(../images/wall.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-0-background-size: cover;
+	background-size: cover;
+	float: left;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	position: fixed;
+	opacity: .6;
+	-webkit-filter: blur(1px); 
+	filter: blur(1px);
+}
+
+/* ---------------------------------------- */
+#reg {
+	float: right;
+	padding: 5px;
+	text-decoration: none;
+	text-align: right;
+}
+
+#reg a:link, #reg a:visited{
+	color: #684684;
+	text-decoration: none;
+}
+
+#reg a:hover {
+	color: #361552;
+}
+
+
+
+/* ---------------------------------------- */
+h1 {
+	padding: 2px 0px 0px 90px;
+	/*font-family: black_roseregular;*/
+	font-family: nautilus;
+	font-weight: normal;
+}
+
+header h1 a:link, h1 a:visited {
+	color: #684684;
+	text-decoration: none;
+	font-size: 170%;
+}
+
+header h1 a:hover {
+	color: #361552;
+}
+
+/* ---------------------------------------- */
+#mini, #mini h1, #mini p {
+	font-family: nautilus;
+	display: inline;
+}
+
+#mini p {
+	padding: 50px 0% 0% 4%;
+	color: #684684;
+}
+
+/* ---------------------------------------- */
+
+
+
+/* ---------------------------------------- */
+#nav {
+	text-align: center;
+
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+	display: inline;
+	/*border: 1px solid black;*/
+	float: left;
+	/*width: 20%;*/
+}
+
+#nav a:link, #nav li:link {
+    display: block;
+    background-color: #aeaeae;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 105%;
+	color: #684684;
+}
+
+#nav a:hover, #nav li:hover {
+	background-color: #828282;
+	color: #361552;
+}
+
+#nav li input {
+	text-align:center;
+	margin-top: 20px;
+	width: 100%;
+	padding: 7px;
+	border: 0px solid black;
+}
+
+#nav li button {
+	padding: 7px;
+	width: 100%;
+	border: 0px solid black;
+}
+
+#nav form {
+	margin: 0px;
+	background-color: #aeaeae;
+	padding-top: 5px;
+}
+
+#nav .input input:focus {
+	outline-width: 0;
+	border: 1px solid #684684;
+}
+
+#nav .input input{
+	display: inline;
+	width: 79%;
+	padding: 5px;
+	text-align: center;
+	color: #684684;
+}
+
+#nav .input button {
+	display: inline;
+	width: 19%;
+	padding: 5px;
+	text-align: center;
+	color: #684684;
+}
+
+
+/* ------------------------------------------------------------ */
+/* Container */
+
+#spalsh h2 {
+	font-family: nautilus;
+	font-weight: normal;
+}
+
+#splash  table{
+	background-color: #aeaeae;
+}
+
+#container #splash table {
+	width: 70%;
+	height: auto;
+	margin-top: 10px;
+	margin: auto;
+	padding: 10px;
+}
+
+#splash table td {
+	width: 50%;
+	overflow: hidden;
+	vertical-align: center;
+}
+
+#splash table td img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+#splash table .text {
+	padding: 5%;
+}
+
+#splash table h2 {
+	text-align:center;
+}
+
+/* ---------------------------------------- */
+#popular {
+	text-align: center;
+}
+
+/* ---------------------------------------- */
+
+
+
+/* ------------------------------------------------------------ */
+/* Footer */
+footer {
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;
+	width: 80%;
+}
+
+/* ---------------------------------------- */
+#foot-links {
+	margin: auto;
+	padding: 0px;
+}
+
+#foot-links li {
+	display: inline;
+	font-weight: bold;
+}
+
+#foot-links a:link, #foot-links a:visited {
+	text-decoration: none;
+	color: #684684;
+}
+
+#foot-links a:hover {
+	text-decoration: none;
+	color: #361552;
+}
+
+/* ------------------------------------------------------------ */
+.ui-autocomplete {
+	background-color: rgb(174, 174, 174);
+	width: 60%;
+	list-style-type: none;
+	text-align: center;
+	border: 1px solid black;
+	z-index: 1000000000;
+	padding: 0;
+}
+
+.ui-autocomplete li {
+	padding: 5px;
+}
+.ui-autocomplete li:hover {
+	color: #361552;
+	background-color: #828282;
+}
+

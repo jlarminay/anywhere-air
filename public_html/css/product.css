@@ -1,0 +1,74 @@
+#container {
+	background-color: #aeaeae;
+	padding: 20px;
+}
+
+#container div {
+
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#img {
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+
+#img img {
+	width: 100%;
+	height: auto;
+}
+
+#data {
+	margin-left: 5%;
+	float: left;
+	width: 30%;
+}
+
+#data h2 {
+	margin-bottom: 0;
+	font-size: 200%;
+}
+
+#data h3 {
+	margin-top: 0;
+}
+
+#data p{
+	margin: 0;
+}
+
+#data #stock {
+	font-size: 160%;
+	margin: 5px;
+}
+
+#basket {
+	float: right;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	padding: 3% 0 3% 0;
+	background-color: #828282;
+}
+
+#basket button {
+	border: 0;
+	margin: 5px;
+	padding: 5% 10% 5% 10%;
+	font-size: 120%;
+}
+
+#basket select {
+	padding: 5px;
+}
+
+#desc {
+	text-align: center;
+	margin: 5%;
+}

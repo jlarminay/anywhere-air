@@ -1,0 +1,30 @@
+#container {
+	background-color: #aeaeae;
+	padding:  2% 5% 2% 5%;
+}
+
+#container h2 {
+	margin: 0 0 0 10%;
+	padding: 10px;
+}
+
+/* --------------------------------------------- */
+/* ---------- search ------------ */
+#container #search {
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 2% 5% 2% 5%;
+}
+
+#container #search h3 {
+	margin: 0 0 0 5%;
+}
+
+#container #search dt {
+	font-weight: bold;
+}
+
+#container #search dd ul {
+	margin: 0;
+}

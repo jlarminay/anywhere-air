@@ -1,0 +1,11 @@
+#container {
+	background-color: #aeaeae;
+	text-align: center;
+	height: 30%;
+}
+
+h3 {
+	font-size: 250%;
+	padding: 10px;
+	margin: 0;
+}

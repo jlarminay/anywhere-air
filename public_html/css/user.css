@@ -1,0 +1,38 @@
+#container {
+	background-color: #aeaeae;
+	text-align: center;
+}
+
+#container table {
+	margin: auto;
+	width: 60%;
+}
+
+#container label {
+	padding: 3% 5% 3% 5%;
+}
+
+#container .left{
+	text-align: right;
+}
+
+#container  input {
+	padding: 3% 5% 3% 5%;
+	width: 100%;
+	border; 0;
+}
+
+#container select {
+	padding: 5px 10px 5px 10px;
+	border: 0;
+}
+
+#container #submit {
+	width:50%;
+	padding: 2% 1% 2% 1%;
+	margin: 1%;
+}
+
+.required {
+	color:red;
+}

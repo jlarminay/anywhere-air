@@ -1,0 +1,92 @@
+/* ------------------------------------------------------------ */
+/* Container */
+#container{
+	text-align: center;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ---------------------------------------- */
+#login {
+	background-color: #aeaeae;
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+}
+
+#login form {
+	margin: 5px;
+}
+
+#login input, #login button{
+	display: inline;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid white;
+	margin: 1px;
+	color: #684684;
+}
+
+#login input:focus {
+	outline-width: 0;
+	border: 1px solid #684684;
+}
+#login button:focus{
+	outline-width: 0;
+	border: 1px solid #684684;
+}
+
+#login p {
+	margin: 4px;
+	font-size: 130%;
+	color: #684684;
+	font-weight: bold;
+}
+
+
+/* ---------------------------------------- */
+#register {
+	background-color: #aeaeae;
+	float: right;
+	width: 30%;
+	margin-right: 10%;
+}
+
+#register form {
+	margin: 5px;
+}
+
+#register input, #register button{
+	display: inline;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid white;
+	margin: 1px;
+	color: #684684;
+}
+
+#register input:focus {
+	outline-width: 0;
+	border: 1px solid #684684;
+}
+#register button:focus{
+	outline-width: 0;
+	border: 1px solid #684684;
+}
+
+#register p {
+	margin: 4px;
+	font-size: 130%;
+	color: #684684;
+	font-weight: bold;
+}
+
+#register input[name='re_pass'] {
+	display: none;
+}

@@ -1,0 +1,56 @@
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ---------------------------------------- */
+.item {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding-top: 5px 0 5px 0;
+	width: 100%;
+	padding: 10px;
+	background-color: #aeaeae;
+}
+
+.item .im {
+	width: 25%;
+	float:left;
+}
+
+.item .im img {
+	width: 100%;
+	height: auto;
+}
+
+.item .desc {
+	float: left;
+	padding: 5px 0px 5px 10px;
+}
+
+.item .desc h4 {
+	margin: 0;
+	color: #684684;
+	font-size: 150%;
+}
+
+.item .desc p {
+	margin: 3px;
+}
+
+.item .curt {
+	float: right;
+	text-align: center;
+	width: 25%;
+}
+
+.item .curt .price {
+	color: blue;
+}
+
+.item .curt  button {
+	width: 80%;
+	padding: 3px;
+}
+

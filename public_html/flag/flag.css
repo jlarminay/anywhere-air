@@ -1,0 +1,45 @@
+.flag {
+	width: 32px;
+	height: 32px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+/* ------------------------------ 01 ---------- */
+.f01-001 {	background:url(images/Egypt.png) 	no-repeat 	}
+.f01-002 {	background:url(images/Madagascar.png) 	no-repeat	}
+.f01-003 {	background:url(images/Morocco.png) 	no-repeat	}
+.f01-004 {	background:url(images/Swaziland.png) 	no-repeat	}
+
+/* ------------------------------ 02 ---------- */
+.f02-005 {	background:url(images/India.png) 	no-repeat 	}
+.f02-006 {	background:url(images/Islamic_Conference.png) 	no-repeat	}
+.f02-007 {	background:url(images/Japan.png)	no-repeat	}
+.f02-008 {	background:url(images/Russian_Federation.png) 	no-repeat	}
+.f02-009 {	background:url(images/South_Korea.png) 	no-repeat	}
+.f02-010 {	background:url(images/North_Korea.png) 	no-repeat	}
+
+/* ------------------------------ 03 ---------- */
+.f03-011 {	background:url(images/Antarctica.png) 	no-repeat 	}
+
+/* ------------------------------ 04 ---------- */
+.f04-012 {	background:url(images/New_Zealand.png) 	no-repeat }
+.f04-013 {	background:url(images/Australia.png) 	no-repeat }
+
+/* ------------------------------ 05 ---------- */
+.f05-014 {	background:url(images/Canada.png) 		no-repeat }
+.f05-015 {	background:url(images/USA.png) no-repeat }
+.f05-016 {	background:url(images/Mexico.png) 		no-repeat }
+
+/* ------------------------------ 06 ---------- */
+.f06-017 {	background:url(images/Peru.png) 		no-repeat }
+.f06-018 {	background:url(images/Colombia.png) 	no-repeat }
+.f06-019 {	background:url(images/Argentina.png) 	no-repeat }
+
+/* ------------------------------ 07 ---------- */
+.f07-020 {	background:url(images/England.png) 		no-repeat }
+.f07-021 {	background:url(images/Germany.png) 		no-repeat }
+.f07-022 {	background:url(images/France.png) 		no-repeat }
+.f07-023 {	background:url(images/Vatican_City.png) no-repeat }
+.f07-024 {	background:url(images/Italy.png) no-repeat }
